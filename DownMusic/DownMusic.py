@@ -12,6 +12,7 @@ def main(page: ft.Page):
     page.padding = 20
     page.window.min_width = 400
     page.window.min_height = 600
+    page.window.alignment = ft.alignment.center
     
     avisor = download_API().aviso
     
